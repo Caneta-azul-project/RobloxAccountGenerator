@@ -7,8 +7,11 @@ This is a Python script that generates multiple Roblox accounts using Selenium.
 
 <h2>Requirements</h2>
 1. Python 3.11 or later
+
 2. Selenium
+
 3. Requests
+
 If you don't have Python and the required modules installed, you can run the ***Installer.bat file***. This will open a window to download Python, which you will need to install. After installing Python, run the ***Installer.bat*** file again to install the required modules.
 
 <h2>Usage</h2>
