@@ -1,27 +1,21 @@
-<h1>Roblox Account Generator
-This script automates the account registration process on Roblox. It uses the Selenium library to interact with the website and generate random usernames and passwords.
+![Python](https://www.google.com/url?sa=i&url=https%3A%2F%2Frealpython.com%2Fimage-processing-with-the-python-pillow-library%2F&psig=AOvVaw37RZfAsScZbVXQgQeeJgs7&ust=1683056731540000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMCEwobx1P4CFQAAAAAdAAAAABAX)
+<h1>Roblox Account Generator</h1>
+This is a Python script that generates multiple Roblox accounts using Selenium.
 
-Installation
-Install Python on your computer.
-Install the required libraries by running the following command:
-Copy code
-pip install selenium requests
-Download the AccountRobloxGenerator.py file.
-Usage
-Run the script using the following command:
-Copy code
-python AccountRobloxGenerator.py
-The script will check if it is up to date with the latest version.
-The script will open a Chrome browser window and navigate to the Roblox website.
-The script will generate a random username and password, and fill out the registration form.
-The script will write the generated account information to a file named Contas.txt.
-Dependencies
-This script requires the following libraries:
+> Status: Developing
+> Version: Beta 1.0
 
-Selenium
-Requests
-Disclaimer
-This script is for educational purposes only. Use it at your own risk. The author is not responsible for any damage caused by this script.
+<h2>Requirements</h2>
+1. Python 3.11 or later
+2. Selenium
+3. Requests
+If you don't have Python and the required modules installed, you can run the ***Installer.bat file***. This will open a window to download Python, which you will need to install. After installing Python, run the ***Installer.bat*** file again to install the required modules.
 
-License
+<h2>Usage</h2>
+To use the script, simply run the ***RobloxAccountGenerator.bat*** file. You will be asked to enter the number of accounts you want to create. The script will open a new browser window for each account and create a random username and password you will need to go through the roblox captcha after that close the window you have completed the captcha. Account credentials will be saved in the Accounts.txt file.
+
+<h2>Note</h2>
+This script is for educational purposes only. Use at your own risk.
+
+<h2>License</h2>
 This project is licensed under the MIT License. See the LICENSE file for details.
